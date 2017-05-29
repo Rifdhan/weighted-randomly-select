@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "iojs"
+  - "7"
+
+cache:
+  directories:
+    - "node_modules"
+
+deploy:
+  provider: npm
+  api_key:
+    secure: "aIgmxNc61XV2d/eelR7TAjo4xmtv9w/IuTTg/El8egKI3slBuAcQrh2erIo17T1x38vOing20rLArUqQXgXiQrckRmdH1tMioNOAEMmwbU+pUO9JWmoCDjfg8eq9gpMo7HK+e8xtXVv1q6yjsCSiiunQ9Az31kEGI+L8ENg/CV23LXHgF6yFS95rMRkKhMaq/yLC4h14/pQSWRdEFatMJxM9gcfasbQKomQoCux1lIT3q3iZmAdoNhWcCt8AtZ6qj2mEO1Ss1xEDgfrUirpLFTUgx4FeXE1FxGIdSKFG2KGTFD1pMvKRGE9P7/bnY3F8rw340p7qEmopnZTdBl6uFwxgTQP8X310WENgf2+e9MYeE4mdIK/zvYrqt3rdRXPoTzbWcbQ8wv+LqgjQDqSEREmvImSFU9LQL8H4FC91jV8em9Bb/G4V1PABslBLXEB+4ebceQuCtloG+Qs5VZBBt41OfUesDw4vYmL08BuJ0VBh/KcB2r1gwDrmixX6B3pkwWOW3zXXfn7vMtDy1sZe5A2xH1iPuT770X2zgiNke518q6AFhl2+sJk93NKEf3dk6R1Z0NODiKjMXx2QGpgoo2tx2LLKXyHBXCN2DWiP7LpemnTPAv9uWD+WrlykT9Eev/83zfm/cfz9+r5KLrfEO7QGL7TSFaCa5RA9MjuRm30="
+  on:
+    tags: true
