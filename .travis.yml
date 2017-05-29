@@ -8,8 +8,7 @@ cache:
 
 deploy:
   provider: npm
-  api_key:
-    secure: "4rW4fDmfGeuc8hB2dQlvJwxw0Pn20TdRV/qfehNRbrvorMdMrHGQnjuPJAuTRsc09vn1YggWyY6RJZjiK8mwaMMZHL+Zf+RjqEOQEhCyfom+H7u6YakIjaLHb3qTxcIHIthQhQEuWdyXWFbTVz2py8nhkNgU+eA/tJMBMbnIEaYdJqxIYWs178u2KJiCJVLsQxk2XxRDXUAndxO9Edx4JzZn+JHc2If3hpNgg0oAWS1yeZLYIIRhltXvl3IKhi5axKy0PlRBrzXbpLO3aozVbeiUBWaQxGRQ4TyiQr301DBXTBhrKFeuqrMdZbQ0hCEvGbttZa0HkB/yM4RBdZYpTistktTUsURaKVdj8AHGXvfQJPeVaGRrynzGOMZWMnLeXqpjkQSpPhqkqw3Jkp4bkKzX7gf1dGa154eSj7xCOb+8VQIiCIvUSELBHnFFTCYJIJY4RQCsI4+Ps7oDyXf7RIXPv55yNGQ7wmscos826yH3f+hZKoOOdMb+yEFTe8RHZvzkHYVaagw87E2mVLWuODw8rOsAH7JKyD4lVeCo0NA6EOldDf6uPBO+CFnBF5zzZWEDs4tQP7/8+9XUDze62//MsWnRPQDdhFbLlSXY8NP7lrrMPKjE2YVmpd1/8S8VXIPD05cIuYVW4nNczE5GdUxEGd+ubMXzxLZCaULN1BU="
+  api_key: $NPM_API_KEY
   email: "rifdhan.nazeer@gmail.com"
   on:
     tags: true
