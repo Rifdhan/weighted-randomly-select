@@ -1,6 +1,6 @@
 {
   "name": "weighted-randomly-select",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Randomly select from a list of weighted possible outcomes.",
   "main": "index.js",
   "scripts": {
