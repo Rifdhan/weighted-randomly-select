@@ -1,6 +1,5 @@
 const Chai = require("chai");
 const should = Chai.should();
-const expect = Chai.expect;
 const Sinon = require("sinon");
 
 const Randomly = require("../index");
