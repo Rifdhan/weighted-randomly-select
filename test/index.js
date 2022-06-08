@@ -88,5 +88,13 @@ describe("Randomly", function() {
                 }
             ]).should.equal("b");
         });
+            it("shouldn't throw an error when a result has Infinity chance", () => {
+            Randomly.select([{
+                    chance: Infinity, result: 9
+                }, {
+                    chance: 6, result: 19
+                }
+            ]).should.equal(9);
+        });
     });
 });
