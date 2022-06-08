@@ -55,6 +55,10 @@ function selectWithoutValidation(choices) {
 			return choicesWithNonZeroChances[i].result;
 		}
 	}
+	
+	return choicesWithNonZeroChances.reduce((p, c) =>
+                p.chance > c.chance ? p : c
+            ).result;
 }
 
 function exists(value) {
